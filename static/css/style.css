@@ -1,0 +1,163 @@
+html, body {
+	font-family: 'Lato' sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.admin_a{
+	color: #9c4128;
+}
+
+a {
+
+	color: #0059b2;
+	text-decoration: none;
+}
+a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+p input{
+	padding: 7px 30px;
+}
+
+p.title{
+
+	font-weight: 600;
+}
+
+#submit{
+	background: #0059b2 ;
+	color: white;
+}
+
+.clear {clear: both;}
+
+ul.mainmenu {
+	background: #3de3d2;
+
+	list-style: none;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #fdc073;
+	font-size: 20px;
+	overflow: hidden;
+}
+ul.mainmenu li {
+	text-align: center;
+	float: left;
+	margin: 18px 40px 0 50px;
+}
+ul.mainmenu li.last {float: right;}
+
+ul.mainmenu li a {
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+}
+ul.mainmenu li a:hover {
+	color: #872a29;
+}
+
+p label{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 700;
+	color: #202336;
+}
+
+div.content {
+	margin: 10px;
+}
+
+.form-contact label {
+	display: inline-block;
+	min-width: 80px;
+}
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+	font-size: 16px;
+}
+
+.form-contact .invalid {
+	display: inline-block;
+	background: #FF9898;
+}
+.form-contact .invalid-feedback {
+	color: #CC0000;
+}
+
+.flash {padding: 10px;}
+.flash.success {
+	border: 1px solid #21DB56;
+	background: #AEFFC5;
+}
+.flash.error {
+	border: 1px solid #FF4343;
+	background: #FF9C9C;
+}
+
+
+div.dd{
+	margin-left: 90px;
+}
+
+ul.list-posts {
+	list-style: none;
+	margin-left: 70px;
+	padding: 20px;
+	max-width: 600px;
+}
+ul.list-posts li {
+	margin: 20px 0 0 0;
+	border: 1px solid #eee;
+}
+ul.list-posts .title {
+	padding: 10px;
+
+	margin: 0;
+	background: #eee;
+}
+ul.list-posts .annonce {
+	margin: 0;
+	padding: 10px 5px 10px 5px;
+}
+
+
+
+
+.profile-ava {
+	width: 130px;
+	text-align: center;
+	overflow: hidden;
+	background: #eee;
+	padding: 10px;
+}
+.profile-ava img {max-width: 150px; height: auto;}
+
+.profile-load {
+	margin-top: 10px;
+	overflow: hidden;
+	max-width: 150px;
+}
+.profile-load input[type=submit], input[type=file] {
+	width: 100%;
+	font-size: 18px;
+}
+.profile-load p {
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+
+.profile-panel {padding: 0 0 0 10px;}
+ul.profile-info {
+	list-style: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+	color: #7E652F;
+}
+ul.profile-info li {margin-top: 10px;}

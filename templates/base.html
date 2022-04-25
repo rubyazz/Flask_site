@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    {%block title-%}
+      {%if title%}
+        <title>Flask - {{title}}</title>
+      {%else %}
+        <title>Flask</title>
+      {%endif%}
+
+
+  {%block content-%}
+  {%-block mainmenu-%}
+
+  <ul class="mainmenu">
+    {%for p in menu%}
+  <li><a href="{{p.url}}">{{p.title}}</a></li>
+  {%endfor%}
+  </ul>
+  {%endblock mainmenu-%}
+
+
+
+
+  <div class="clear"></div>
+  <div class="content">
+
+  {%endblock%}
+
+{%endblock%}
+  </div>
+
+<body>
+</head>
+</body>
+</html>

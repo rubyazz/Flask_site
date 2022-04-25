@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{{ super() }}
+
+<div class="dd"><h2>Про Flask</h2>
+<hr>
+<h2>Список статей</h2>
+</div>
+<ul class="list-posts">
+    {% for p in posts %}
+    <li>
+        <p class="title"><a href="{{ url_for('showPost', alias=p.url)}}">{{p.title}}</a></p>
+        <p class="annonce">{{p.text[:200] | striptags}}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
